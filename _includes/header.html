@@ -1,6 +1,6 @@
 <header class="header">
 
-	<div class="header-image header-image--on" style="background-image: url({{ page.featured_image }});"></div>
+	<div class="header-image header-image--on" style="background-image: url("/MachineLearning"{{ page.featured_image }});"></div>
 	<div class="header-image"></div>
 
 	<div class="header-overlay"></div>
@@ -9,7 +9,7 @@
 
 		{% if site.data.settings.header_settings.logo_image %}
 		<a href="/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+			<img src="/MachineLearning{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
 		</a>
 		{% else %}
 		<a href="/" class="header__title">
