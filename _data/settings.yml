@@ -11,11 +11,11 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'Latest'
-      url: '/MachineLearning'
+      url: '/'
     - title: 'Projects'
-      url: '/MachineLearning/projects/'
+      url: '/projects/'
     - title: 'About'
-      url: '/MachineLearning/about'
+      url: '/about'
 
 grid_settings:
   grid_spacing: 10
