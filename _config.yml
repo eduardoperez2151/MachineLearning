@@ -6,7 +6,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /MachineLearning/blog/:slug
+    permalink: /blog/:slug
   projects:
     output: true
     permalink: /project/:slug
