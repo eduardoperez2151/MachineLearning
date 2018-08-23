@@ -1,18 +1,18 @@
 <header class="header">
 
-	<div class="header-image header-image--on" style="background-image: url({{ page.featured_image }});"></div>
+	<div class="header-image header-image--on" style="background-image: url({{site.baseurl}}{{ page.featured_image }});"></div>
 	<div class="header-image"></div>
 
-	<div class="header-overlay"></div>
+	<div id="particles-js" class="header-overlay"></div>
 
-	<div class="header__content">
+	<div  class="header__content">
 
 		{% if site.data.settings.header_settings.logo_image %}
-		<a href="/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		<a href="{{site.baseurl}}/" class="header__logo">
+			<img src="{{site.baseurl}}{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
 		</a>
 		{% else %}
-		<a href="/" class="header__title">
+		<a href="{{site.baseurl}}/" class="header__title">
 			{{ site.data.settings.basic_settings.site_title }}
 		</a>
 		{% endif %}
@@ -27,7 +27,7 @@
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+						<a href="{{site.baseurl}}{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
 					</li>
 					{% endfor %}
 				</ul>
