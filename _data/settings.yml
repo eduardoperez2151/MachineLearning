@@ -50,10 +50,10 @@ social_settings:
 
 color_settings:
   background_color: '#000000'
-  background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
+  background_alt_color: '#000000'
+  text_dark_color: '#e6e6e6'
   text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
+  text_light_color: '#ffffff'
   accent_color: '#A2DED0'
   border_color: '#eeeeee'
   overlay_background_color: '#161B21'
