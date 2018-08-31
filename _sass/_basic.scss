@@ -381,7 +381,7 @@ body.loading {
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -427,6 +427,6 @@ section {
 	}
 
 	@include mq(laptop) {
-		
+
 	}
 }

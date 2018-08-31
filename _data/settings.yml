@@ -52,7 +52,7 @@ color_settings:
   background_color: '#000000'
   background_alt_color: '#000000'
   text_dark_color: '#e6e6e6'
-  text_medium_color: '#6C7A89'
+  text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
   accent_color: '#A2DED0'
   border_color: '#eeeeee'
@@ -88,7 +88,7 @@ font_settings:
     small_size: 25
     medium_size: 35
     large_size: 45
-    weight: 400
+    weight: bold
     letter_spacing: -0.02
     line_height: 1.2
   h2:
