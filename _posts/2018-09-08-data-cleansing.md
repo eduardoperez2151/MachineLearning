@@ -9,7 +9,7 @@ excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de 
 ## Introducción
 Una de las partes más importantes sobre la preparación de los datos, es comprender el negocio, para que de esta manera tengamos una mejor interpretación de los datos. Esta comprensión de los datos nos ayudará a decidir qué técnicas y/o transformaciones aplicaremos a nuestro conjunto de datos. Una pregunta frecuente es por que tanto trabajo sobre los datos, la respuesta es sencilla y se explica mediante el principio [GIGO(Garbage In - Garbage Out)](https://www.semantics3.com/blog/thoughts-on-the-gigo-principle-in-machine-learning-4fbd3af43dc4).
 
-![GIGO](/images/blog/gigo.png =200x100)
+<img src="/images/blog/gigo.png" width="200"/>
 
 Básicamente si no somos capaces de comprender y analizar datos que le proveemos a nuestros modelos, tampoco vamos hacer capaces de analizar, comprender, interpretar y evaluar la salida de los mismos.
 
