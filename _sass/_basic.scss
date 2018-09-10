@@ -139,6 +139,7 @@ h6, .h6 {
 p, ul, ol {
 	margin-top: 15px;
 	font-size: $p-small;
+	text-align: justify;
 	font-weight: $p-weight;
 	line-height: $p-lineheight;
 	letter-spacing: $p-spacing;
@@ -152,6 +153,7 @@ p, ul, ol {
 	}
 
 	strong {
+		color: #0099ff;
 		font-weight: $bold-weight;
 	}
 
@@ -180,7 +182,13 @@ blockquote {
 		font-size: $blockquote-large;
 	}
 
+	pre, code {
+		text-align: justify;
+		white-space:normal;
+	}
+
 	p {
+		text-align: justify;
 		font-size: $blockquote-small;
 		font-weight: $blockquote-weight;
 		letter-spacing: $blockquote-spacing;

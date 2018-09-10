@@ -1,11 +1,9 @@
 ---
-title: 'BIENVENIDOS !!!'
-date: 2018-08-30
 featured_image: '/images/blog/welcome.jpg'
-excerpt: Quiero darles la bienvenida y siendo este mi primer post, hablaremos brevemente que cuales temáticas iremos tratando a lo largo de este emocionante camino aprendiendo sobre el aprendizaje automatico o Machine Learning.
+excerpt: Quiero darles la bienvenida y siendo este mi primer post, hablaremos brevemente que cuales temáticas iremos tratando a lo largo de este emocionante camino aprendiendo sobre Machine Learning.
 ---
 
-![](/images/blog/welcome.jpg)
+![](/MachineLearning/images/blog/welcome.jpg)
 <div style="text-align: justify" markdown="1">
 Quiero darles la bienvenida a este portfolio, la idea principal de este sitio es
 compartirles, y hacerlos participe de mi camino y desarrollo en el mundo de

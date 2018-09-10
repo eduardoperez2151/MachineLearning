@@ -50,21 +50,22 @@ social_settings:
 
 color_settings:
   background_color: '#000000'
-  background_alt_color: '#000000'
+  background_alt_color: '#aaaaaa'
   text_dark_color: '#e6e6e6'
   text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
-  accent_color: '#A2DED0'
+  accent_color: '#00cc66'
   border_color: '#eeeeee'
   overlay_background_color: '#161B21'
   overlay_text_color: '#ffffff'
+  text-strong-color: 'red'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
   title_font: '"Merriweather", sans-serif'
   body_font: '"Muli", sans-serif'
-  regular_weight: 400
-  bold_weight: 600
+  regular_weight: 200
+  bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 30
@@ -127,12 +128,12 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 16
-    medium_size: 18
-    large_size: 20
-    weight: 400
+    small_size: 10
+    medium_size: 12
+    large_size: 15
+    weight: 100
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.5
   blockquote:
     small_size: 25
     medium_size: 35
