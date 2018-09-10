@@ -1,5 +1,5 @@
 ---
-featured_image: '/images/blog/data-cleansing.png'
+featured_image: '/images/blog/cleaning/data-cleansing.png'
 excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de los datos. En este Post veremos un poco de estadística descriptiva aplicada sobre nuestros datos y sus distribuciones. Además veremos por qué y cómo Normalizar nuestros datos. Veremos conversiones entre tipos de datos y por último veremos cómo detectar y eliminar los Outliers o valores atípicos de nuestro conjuntos de datos.
 
 ---
@@ -92,4 +92,5 @@ Nuestro Dataset se encuentra en el archivo **adult.data**,
 este archivo se encuentra en formato **CSV** (Comma Separated Values), para su manipulación utilizaremos una planilla electronica.
 
 ![raw-data](/images/blog/cleaning/raw-dataset.png)
-Como podemos observar al abrir nuestros datos estos no possen la cabecera correspondiente, por lo que procedemos a agregarselas basandonos en la información adjunta a el.
+Como podemos observar al abrir nuestros datos estos no possen la cabecera correspondiente, por lo que procedemos a agregárselas basándonos en la información adjunta a el.
+![raw-data](/images/blog/cleaning/raw-data-headers.png)

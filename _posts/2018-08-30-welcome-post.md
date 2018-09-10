@@ -1,5 +1,5 @@
 ---
-featured_image: '/images/blog/welcome.jpg'
+featured_image: '/images/blog/welcome/welcome.jpg'
 excerpt: Quiero darles la bienvenida y siendo este mi primer post, hablaremos brevemente que cuales temáticas iremos tratando a lo largo de este emocionante camino aprendiendo sobre Machine Learning.
 ---
 
