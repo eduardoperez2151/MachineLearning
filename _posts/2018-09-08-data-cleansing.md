@@ -4,12 +4,12 @@ excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de 
 
 ---
 
-![](/images/blog/data-cleansing.png)
+![](/images/blog/cleaning/data-cleansing.png)
 
 ## Introducción
 Una de las partes más importantes sobre la preparación de los datos, es comprender el negocio, para que de esta manera tengamos una mejor interpretación de los datos. Esta comprensión de los datos nos ayudará a decidir qué técnicas y/o transformaciones aplicaremos a nuestro conjunto de datos. Una pregunta frecuente es por que tanto trabajo sobre los datos, la respuesta es sencilla y se explica mediante el principio [GIGO(Garbage In - Garbage Out)](https://www.semantics3.com/blog/thoughts-on-the-gigo-principle-in-machine-learning-4fbd3af43dc4).
 
-<img src="/images/blog/gigo.png" width="200"/>
+<img src="/images/blog/cleaning/gigo.png" width="200"/>
 
 Básicamente si no somos capaces de comprender y analizar datos que le proveemos a nuestros modelos, tampoco vamos hacer capaces de analizar, comprender, interpretar y evaluar la salida de los mismos.
 
@@ -22,9 +22,9 @@ Una de las herramientas más importantes que tenemos es la estadística descript
  La estadística descriptiva es una rama de las Matemáticas cuyo objetivo es **recolectar**, **resumir** y **analizar** un conjunto de datos con el fin de **describir las características que este posee**.
 Los conceptos más importantes que debemos comprender acerca de la estadística descriptiva son los siguientes:
 
-- **Población:** Es una colección de un número finito de mediciones o una colección grande, virtualmente infinita de datos sobre algún objeto de interés.
+  **Población:** Es una colección de un número finito de mediciones o una colección grande, virtualmente infinita de datos sobre algún objeto de interés.
 
-- **Muestra:** Es un *subconjunto representativo* seleccionado de una población.
+  **Muestra:** Es un *subconjunto representativo* seleccionado de una población.
 
 ### **Medidas descriptivas numéricas**
 
@@ -76,3 +76,20 @@ El Rango es la diferencia entre el mayor valor  y el mínimo de un conjunto.
 **$$R=X_{(n)}-X_{(1)}$$**
 
 donde $$X{(i)}$$ es el dato ordenado en la posición i.
+
+Hasta este punto hemos dado solo un repaso básico de la estadistica descriptiva entonces ...
+![Hands-On](/images/blog/cleaning/evilkermit-cleansing.jpeg)
+
+Para poner en practica los conceptos vistos hasta el momento, haremos uso de un conjunto de datos estraidos del sitio [UCI](https://archive.ics.uci.edu/ml/datasets.html?format=&task=cla&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list), este sitio contiene enlaces a una buena cantidad de datasets, mas adelante le dedicaremos un pequeño post a esta página.
+
+## Dataset (Conjunto de datos)
+Examinando los datasets disponibles en UCI, seleccione uno el cual esta asociado al problema de determinar si una persona gana o no mas de 50000 al año dependiendo de algunos atributos como por ejemplo, la edad, sexo, estado civil, acupacion y nivel educativo entre otros. **Como lo comente al inicio es muy importante conocer el negocio y comprender los datos, en este caso vamos a enfocarnos en las técnicas de limpieza de los mismos, por lo que dejaremos los pasos previos a esta etapa para otro post en donde entrenaremos un modelo de clasificación**.
+
+El Dataset lo descargaremos desde la siguiente ubicación:
+[https://archive.ics.uci.edu/ml/datasets/Adult](https://archive.ics.uci.edu/ml/datasets/Adult).
+Luego de descargar el dataset como primer paso debemos leer cualquier tipo de información que venga adjunta a nuestros datos. En este caso tenemos un archivo llamado **adult.names** que nos brina la informacion general del dataset así también como los atributos que lo componen.
+Nuestro Dataset se encuentra en el archivo **adult.data**,
+este archivo se encuentra en formato **CSV** (Comma Separated Values), para su manipulación utilizaremos una planilla electronica.
+
+![raw-data](/images/blog/cleaning/raw-dataset.png)
+Como podemos observar al abrir nuestros datos estos no possen la cabecera correspondiente, por lo que procedemos a agregarselas basandonos en la información adjunta a el.
