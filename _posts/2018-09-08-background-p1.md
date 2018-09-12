@@ -1,10 +1,10 @@
 ---
-featured_image: '/images/blog/cleaning/data-cleansing.png'
-excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de los datos. En este Post veremos un poco de estadística descriptiva aplicada sobre nuestros datos y sus distribuciones. Además veremos por qué y cómo Normalizar nuestros datos. Veremos conversiones entre tipos de datos y por último veremos cómo detectar y eliminar los Outliers o valores atípicos de nuestro conjuntos de datos.
+featured_image: '/images/blog/background/stats.jpg'
+excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de los datos. Para ello es necesario conocer que herramientas tenemos a mano. Una de las herramientas mas importantes y básicas que debemos dominar va mas allá de un software, esta la encontramos como una rama de la matemática les presento la <strong>estadística descriptiva</strong>.
 
 ---
 
-![](/images/blog/cleaning/data-cleansing.png)
+![](/images/blog/background/stats.jpg)
 
 ## Introducción
 Una de las partes más importantes sobre la preparación de los datos, es comprender el negocio, para que de esta manera tengamos una mejor interpretación de los datos. Esta comprensión de los datos nos ayudará a decidir qué técnicas y/o transformaciones aplicaremos a nuestro conjunto de datos. Una pregunta frecuente es por que tanto trabajo sobre los datos, la respuesta es sencilla y se explica mediante el principio [GIGO(Garbage In - Garbage Out)](https://www.semantics3.com/blog/thoughts-on-the-gigo-principle-in-machine-learning-4fbd3af43dc4).
@@ -12,8 +12,6 @@ Una de las partes más importantes sobre la preparación de los datos, es compre
 <img src="/images/blog/cleaning/gigo.png" width="200"/>
 
 Básicamente si no somos capaces de comprender y analizar datos que le proveemos a nuestros modelos, tampoco vamos hacer capaces de analizar, comprender, interpretar y evaluar la salida de los mismos.
-
-Como se mencionó anteriormente en este post nos preocupamos únicamente en abordar las técnicas( y los fundamentos que las sustentan), que nos ayudarán en la limpieza de nuestros conjuntos de datos.   
 
 ## <center><strong>Estadística descriptiva</strong></center>
 
@@ -77,20 +75,4 @@ El Rango es la diferencia entre el mayor valor  y el mínimo de un conjunto.
 
 donde $$X{(i)}$$ es el dato ordenado en la posición i.
 
-Hasta este punto hemos dado solo un repaso básico de la estadistica descriptiva entonces ...
-![Hands-On](/images/blog/cleaning/evilkermit-cleansing.jpeg)
-
-Para poner en practica los conceptos vistos hasta el momento, haremos uso de un conjunto de datos estraidos del sitio [UCI](https://archive.ics.uci.edu/ml/datasets.html?format=&task=cla&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list), este sitio contiene enlaces a una buena cantidad de datasets, mas adelante le dedicaremos un pequeño post a esta página.
-
-## Dataset (Conjunto de datos)
-Examinando los datasets disponibles en UCI, seleccione uno el cual esta asociado al problema de determinar si una persona gana o no mas de 50000 al año dependiendo de algunos atributos como por ejemplo, la edad, sexo, estado civil, acupacion y nivel educativo entre otros. **Como lo comente al inicio es muy importante conocer el negocio y comprender los datos, en este caso vamos a enfocarnos en las técnicas de limpieza de los mismos, por lo que dejaremos los pasos previos a esta etapa para otro post en donde entrenaremos un modelo de clasificación**.
-
-El Dataset lo descargaremos desde la siguiente ubicación:
-[https://archive.ics.uci.edu/ml/datasets/Adult](https://archive.ics.uci.edu/ml/datasets/Adult).
-Luego de descargar el dataset como primer paso debemos leer cualquier tipo de información que venga adjunta a nuestros datos. En este caso tenemos un archivo llamado **adult.names** que nos brina la informacion general del dataset así también como los atributos que lo componen.
-Nuestro Dataset se encuentra en el archivo **adult.data**,
-este archivo se encuentra en formato **CSV** (Comma Separated Values), para su manipulación utilizaremos una planilla electronica.
-
-![raw-data](/images/blog/cleaning/raw-dataset.png)
-Como podemos observar al abrir nuestros datos estos no possen la cabecera correspondiente, por lo que procedemos a agregárselas basándonos en la información adjunta a el.
-![raw-data](/images/blog/cleaning/raw-data-headers.png)
+Este ha sido un post pequeño la idea principal es que seas consciente que Machine learning va mas allá de desarrollar un programa, claro que es necesario en algún momento contar con un modelo, pero debemos comprender los conceptos báscios de la estadística descriptiva como las de otras áreas que veremos en siguientes post. Aplicando estas herramientas podemos llegar a tener datos de muy buena calidad, derivando en resultados confiables, contrastables y correctos.
