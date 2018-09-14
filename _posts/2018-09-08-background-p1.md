@@ -1,4 +1,5 @@
 ---
+title: Fundametos (parte 1)
 featured_image: '/images/blog/background/stats.jpg'
 excerpt : Uno los puntos fundamentales en Machine Learning es el tratamiento de los datos. Para ello es necesario conocer que herramientas tenemos a mano. Una de las herramientas mas importantes y básicas que debemos dominar va mas allá de un software, esta la encontramos como una rama de la matemática les presento la <strong>estadística descriptiva</strong>.
 
@@ -75,4 +76,4 @@ El Rango es la diferencia entre el mayor valor  y el mínimo de un conjunto.
 
 donde $$X{(i)}$$ es el dato ordenado en la posición i.
 
-Este ha sido un post pequeño la idea principal es que seas consciente que Machine learning va mas allá de desarrollar un programa, claro que es necesario en algún momento contar con un modelo, pero debemos comprender los conceptos báscios de la estadística descriptiva como las de otras áreas que veremos en siguientes post. Aplicando estas herramientas podemos llegar a tener datos de muy buena calidad, derivando en resultados confiables, contrastables y correctos.
+Este ha sido un post pequeño la idea principal es que seas consciente que Machine learning va mas allá de desarrollar un programa o entrenar un modelo, de hecho tal vez esa sea la parte fácil. Sin lugar a duda es necesario en algún momento contar con un modelo, aun así debemos comprender los conceptos báscios de la estadística descriptiva como las de otras áreas que veremos en siguientes post.
