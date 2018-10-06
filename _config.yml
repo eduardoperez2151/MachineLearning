@@ -1,3 +1,8 @@
+title: instanceML
+description: Un recorido por el aprendizaje de Machine Learning.
+show_downloads: true
+google_analytics:
+
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -8,4 +13,3 @@ include:
 theme: jekyll-theme-slate
 markdown: kramdown
 
-project_title: InstanceML
