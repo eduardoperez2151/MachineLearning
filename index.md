@@ -1,6 +1,7 @@
 
 |        **Contenido**      |
 |:----------------------:	|
-| [Metodologías]()          |
-| [Algoritmos lineales]()   |
-| [Algoritmos no lineales]()|
+| [Metodología]()           |
+| [Regresión logística]()   |
+| [SVM]()                   |
+| [CART]()                  |
