@@ -2,11 +2,15 @@
 
 |        **Contenido**      |
 |:----------------------:	|
-| [Metodología]()         |
-| [Regresión logística][RL]   |
-| [SVM]()                   |
-| [CART]()                  |
+| [Metodología][CDM]        |
+| [Regresión lineal][LR]    |
+| [Regresión logística][LGR]|
+| [SVM][SVM]                |
+| [CART][CART]              |
 
 </div>
-
-[RL]: ./projects/logistic_regression.md
+[CDM]: ./projects/crisp_dm.md
+[LR]: ./projects/linear_regression.md
+[LGR]: ./projects/logistic_regression.md
+[SVM]: ./projects/support_vector_machine.md
+[CART]: ./projects/classification_and_regression_tree.md
