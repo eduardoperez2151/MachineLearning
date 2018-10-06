@@ -2,7 +2,7 @@
 
 |        **Contenido**      |
 |:----------------------:	|
-| [Metodología]()           |
+| [Metodología](projects/logistic_regression.md)           |
 | [Regresión logística]()   |
 | [SVM]()                   |
 | [CART]()                  |
