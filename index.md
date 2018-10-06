@@ -2,7 +2,7 @@
 
 |        **Contenido**      |
 |:----------------------:	|
-| [Metodología]         |
+| [Metodología]()         |
 | [Regresión logística][RL]   |
 | [SVM]()                   |
 | [CART]()                  |
