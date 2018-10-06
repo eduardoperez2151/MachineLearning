@@ -1,3 +1,4 @@
+<div align="center" markdown="1">
 
 |        **Contenido**      |
 |:----------------------:	|
@@ -5,3 +6,5 @@
 | [Regresión logística]()   |
 | [SVM]()                   |
 | [CART]()                  |
+
+</div>
