@@ -1,6 +1,6 @@
 # Contenido
 
-<center>
+<center markdown="1">
 
 |        **Contenido**      |
 |:----------------------:	|
