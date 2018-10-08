@@ -9,8 +9,9 @@
 | [CART][CART]              |
 
 </div>
+
 [CDM]: ./projects/crisp_dm.md
 [LR]: ./projects/linear_regression.md
-[LGR]: ./projects/logistic_regression.md
+[LGR]: ./projects/logistic_regression/logistic_regression.md
 [SVM]: ./projects/support_vector_machine.md
 [CART]: ./projects/classification_and_regression_tree.md
