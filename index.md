@@ -13,5 +13,5 @@
 [CDM]: ./projects/crisp_dm.md
 [LR]: ./projects/linear_regression.md
 [LGR]: ./projects/logistic_regression/logistic_regression.html
-[SVM]: ./projects/support_vector_machine.md
-[CART]: ./projects/classification_and_regression_tree.md
+[SVM]: ./projects/svm/svm.html
+[CART]: ./projects/cart/cart.html
