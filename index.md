@@ -7,6 +7,7 @@
 | [Regresión logística][LGR]|
 | [SVM][SVM]                |
 | [CART][CART]              |
+| [KNN][KNN]              |
 
 </div>
 
@@ -15,3 +16,4 @@
 [LGR]: ./projects/logistic_regression/logistic_regression.html
 [SVM]: ./projects/svm/svm.html
 [CART]: ./projects/cart/cart.html
+[KNN]: ./projects/knn/knn.html
