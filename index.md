@@ -8,6 +8,7 @@
 | [SVM][SVM]                |
 | [CART][CART]              |
 | [KNN][KNN]              |
+| [K-MEANS][K-MEANS]              |
 
 </div>
 
@@ -17,3 +18,4 @@
 [SVM]: ./projects/svm/svm.html
 [CART]: ./projects/cart/cart.html
 [KNN]: ./projects/knn/knn.html
+[K-MEANS]: ./projects/kmeans/kmeans.html
