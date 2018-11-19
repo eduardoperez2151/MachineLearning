@@ -8,6 +8,7 @@
 | [KNN][KNN]              |
 | [K-MEANS][K-MEANS]              |
 | [RANDOM FOREST][RNDFRST]              |
+| [ENSAMBLES][ENSB]              |
 
 </div>
 
@@ -17,3 +18,4 @@
 [KNN]: ./projects/knn/knn.html
 [K-MEANS]: ./projects/kmeans/kmeans.html
 [RNDFRST]: ./projects/randomforest/randomforest.html
+[ENSB]: ./projects/ensemble/ensemble.html
