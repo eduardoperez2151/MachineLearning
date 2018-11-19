@@ -9,6 +9,7 @@
 | [CART][CART]              |
 | [KNN][KNN]              |
 | [K-MEANS][K-MEANS]              |
+| [RANDOM FOREST][RNDFRST]              |
 
 </div>
 
@@ -19,3 +20,4 @@
 [CART]: ./projects/cart/cart.html
 [KNN]: ./projects/knn/knn.html
 [K-MEANS]: ./projects/kmeans/kmeans.html
+[RNDFRST]: ./projects/randomforest/randomforest.html
