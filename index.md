@@ -9,6 +9,8 @@
 | [K-MEANS][K-MEANS]              |
 | [RANDOM FOREST][RNDFRST]              |
 | [ENSAMBLES][ENSB]              |
+| [FINAL][FINAL]              |
+
 
 </div>
 
@@ -19,3 +21,4 @@
 [K-MEANS]: ./projects/kmeans/kmeans.html
 [RNDFRST]: ./projects/randomforest/randomforest.html
 [ENSB]: ./projects/ensemble/ensemble.html
+[FINAL]:./projects/other/obligatorio.html
